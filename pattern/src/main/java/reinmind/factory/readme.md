@@ -1,0 +1,2 @@
+- ```java.util.Calendar```, ```ResourceBundle ```and ```NumberFormat``` getInstance() methods uses Factory pattern.
+- valueOf() method in wrapper classes like ```Boolean```, ```Integer``` etc.
