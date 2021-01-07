@@ -1,9 +1,12 @@
 package reinmind.proxy;
 
+/**
+ * @author xiang.zhang
+ */
 public class CommandExecutorProxy implements CommandExecutor {
 
     private boolean isAdmin;
-    private CommandExecutor executor;
+    private final CommandExecutor executor;
 
     public CommandExecutorProxy(String user, String pwd){
         if("Pankaj".equals(user) && "J@urnalD$v".equals(pwd)) isAdmin=true;
